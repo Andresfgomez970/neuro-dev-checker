@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Camina con apoyo. Se pone de pie solo."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Pinza fina completa. Mete objetos en recipientes."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Come alimentos blandos con las manos. Usa vaso con ayuda."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Dice palabras como mamá o papá con significado."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Obedece órdenes sencillas. Señala objetos conocidos."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Imita gestos y sonidos. Muestra interés por otros niños."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No se pone de pie con apoyo. No camina con ayuda."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No hace pinza fina. No mete objetos en recipientes."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "No mastica ni traga alimentos blandos."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No dice ninguna palabra con significado."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No obedece órdenes sencillas. No señala objetos."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No imita gestos. No interactúa con otros niños."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Gira la cabeza a los lados en prono."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Reflejo de prensión palmar presente."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Succión adecuada. Deglución sin dificultad."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Llanto diferencial."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Reacciona a sonidos."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Reconoce la voz del cuidador. Sonríe dormido."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No gira la cabeza lateralmente en prono."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Manos siempre cerradas. Pulgar incluido."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Dificultades de succión o deglución."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Ausencia de llanto diferencial."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No reacciona a sonidos."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No sonríe ni fija la mirada."
+    }
+  ]
+}

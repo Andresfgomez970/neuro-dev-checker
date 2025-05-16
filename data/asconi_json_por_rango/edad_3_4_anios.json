@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Sube escaleras alternando pies. Pedalea triciclo."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Copia figuras básicas. Usa tijeras con ayuda."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Se alimenta y limpia solo tras comer."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Habla en oraciones. Usa plurales y pronombres correctamente."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Entiende preguntas complejas y secuencias."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Juega con roles. Comparte con pares."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No sube escaleras alternando pies. No mantiene equilibrio en movimiento."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No copia líneas. No maneja tijeras."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Requiere ayuda para comer y limpiarse."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No habla en oraciones."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No responde a preguntas con lógica."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No juega con otros niños ni sigue reglas simples."
+    }
+  ]
+}

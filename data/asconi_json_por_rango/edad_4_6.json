@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Se apoya sobre antebrazos en prono. Sedente con apoyo."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Pasa objetos de una mano a otra. Agarre simétrico."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Inicia alimentación complementaria."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Balbucea. Sílabas aisladas."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Dirige la mirada al sonido."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Ríe a carcajadas. Reconoce personas."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No sostiene la cabeza. No se voltea."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No toma objetos ni los traslada de mano."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "No inicia alimentación blanda. Rechazo oral."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No balbucea."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No busca el origen de sonidos."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No reconoce al cuidador principal."
+    }
+  ]
+}

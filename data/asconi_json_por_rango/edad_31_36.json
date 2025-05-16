@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Corre con agilidad. Se mantiene en un solo pie por 1 segundo."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Hace torre de 8 cubos. Copia un círculo."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Se alimenta solo completamente."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Hace preguntas. Usa tiempos verbales."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Comprende conceptos espaciales como dentro/fuera."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Juego cooperativo simple. Se reconoce por nombre y edad."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No corre. No se sostiene en un pie."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No dibuja formas. No usa crayones correctamente."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Dificultad para comer solo."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No hace frases de más de 2 palabras."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No identifica conceptos espaciales."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No participa en juegos con otros niños."
+    }
+  ]
+}

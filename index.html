@@ -9,13 +9,21 @@
 <body class="bg-gray-100 text-gray-800 font-sans">
   <div class="max-w-4xl mx-auto mt-12 p-6 bg-white rounded-xl shadow-md">
     <h1 class="text-2xl font-bold mb-6 text-blue-700">Evaluación del Neurodesarrollo (0 a 6 años)</h1>
-    <p class="mb-6 text-gray-600">Seleccione la edad del niño o niña para visualizar los hitos del desarrollo y sus respectivas banderas rojas, según la Cartilla ASCONI.</p>
+    <p class="mb-6 text-gray-600">Seleccione el rango de edad para visualizar los hitos del desarrollo y sus respectivas banderas rojas, según la Cartilla ASCONI.</p>
 
     <div class="flex gap-4 mb-6">
-      <label for="edad" class="font-medium self-center">Edad:</label>
+      <label for="edad" class="font-medium self-center">Rango de edad:</label>
       <select id="edad" onchange="mostrarTabla()" class="px-4 py-2 border rounded-md">
-        <option value="0">0 meses</option>
-        <option value="3">3 meses</option>
+        <option value="0_3">0 a 3 meses</option>
+        <option value="4_6">4 a 6 meses</option>
+        <option value="7_9">7 a 9 meses</option>
+        <option value="10_12">10 a 12 meses</option>
+        <option value="13_18">13 a 18 meses</option>
+        <option value="19_24">19 a 24 meses</option>
+        <option value="25_30">25 a 30 meses</option>
+        <option value="31_36">31 a 36 meses</option>
+        <option value="3_4_anios">3 a 4 años</option>
+        <option value="4_6_anios">4 a 6 años</option>
       </select>
     </div>
 
@@ -31,75 +39,31 @@
   </div>
 
   <script>
-    const tablas = {
-      0: {
-        hitos: `
-        <table class="table-auto w-full border text-sm">
-          <thead class="bg-blue-100">
-            <tr><th class="border px-4 py-2">Área</th><th class="border px-4 py-2">Hito</th></tr>
-          </thead>
-          <tbody>
-            <tr><td class="border px-4 py-2">Motor grueso</td><td class="border px-4 py-2">Gira la cabeza a los lados en prono</td></tr>
-            <tr><td class="border px-4 py-2">Motor fino</td><td class="border px-4 py-2">Reflejo de prensión palmar presente</td></tr>
-            <tr><td class="border px-4 py-2">Alimentación</td><td class="border px-4 py-2">Búsqueda de succión y deglución adecuadas</td></tr>
-            <tr><td class="border px-4 py-2">Lenguaje expresivo</td><td class="border px-4 py-2">Llanto diferencial</td></tr>
-            <tr><td class="border px-4 py-2">Social - Cognitivo</td><td class="border px-4 py-2">Sonríe dormido. Reconoce la voz del cuidador</td></tr>
-          </tbody>
-        </table>`,
-        banderas: `
-        <table class="table-auto w-full border text-sm">
-          <thead class="bg-red-100">
-            <tr><th class="border px-4 py-2">Área</th><th class="border px-4 py-2">Alerta</th></tr>
-          </thead>
-          <tbody>
-            <tr><td class="border px-4 py-2">Motor grueso</td><td class="border px-4 py-2">No gira la cabeza lateralmente en prono</td></tr>
-            <tr><td class="border px-4 py-2">Motor fino</td><td class="border px-4 py-2">Manos cerradas todo el tiempo. Pulgar incluido</td></tr>
-            <tr><td class="border px-4 py-2">Alimentación</td><td class="border px-4 py-2">Dificultad en la succión o deglución</td></tr>
-            <tr><td class="border px-4 py-2">Lenguaje expresivo</td><td class="border px-4 py-2">No hay llanto diferencial</td></tr>
-            <tr><td class="border px-4 py-2">Social - Cognitivo</td><td class="border px-4 py-2">No sonríe ni responde a la voz</td></tr>
-          </tbody>
-        </table>`
-      },
-      3: {
-        hitos: `
-        <table class="table-auto w-full border text-sm">
-          <thead class="bg-blue-100">
-            <tr><th class="border px-4 py-2">Área</th><th class="border px-4 py-2">Hito</th></tr>
-          </thead>
-          <tbody>
-            <tr><td class="border px-4 py-2">Motor grueso</td><td class="border px-4 py-2">Levanta la cabeza en prono 30° por 3-5 segundos</td></tr>
-            <tr><td class="border px-4 py-2">Motor fino</td><td class="border px-4 py-2">Las manos se abren con mayor frecuencia</td></tr>
-            <tr><td class="border px-4 py-2">Alimentación</td><td class="border px-4 py-2">Continúa succión adecuada, movimientos orales coordinados</td></tr>
-            <tr><td class="border px-4 py-2">Lenguaje expresivo</td><td class="border px-4 py-2">Produce sonidos vocálicos. Gesticulaciones</td></tr>
-            <tr><td class="border px-4 py-2">Social - Cognitivo</td><td class="border px-4 py-2">Sonríe socialmente. Responde a la voz del cuidador</td></tr>
-          </tbody>
-        </table>`,
-        banderas: `
-        <table class="table-auto w-full border text-sm">
-          <thead class="bg-red-100">
-            <tr><th class="border px-4 py-2">Área</th><th class="border px-4 py-2">Alerta</th></tr>
-          </thead>
-          <tbody>
-            <tr><td class="border px-4 py-2">Motor grueso</td><td class="border px-4 py-2">No levanta el mentón boca abajo</td></tr>
-            <tr><td class="border px-4 py-2">Motor fino</td><td class="border px-4 py-2">No abre las manos, pulgar incluido</td></tr>
-            <tr><td class="border px-4 py-2">Alimentación</td><td class="border px-4 py-2">Dificultades persistentes con la succión</td></tr>
-            <tr><td class="border px-4 py-2">Lenguaje expresivo</td><td class="border px-4 py-2">No desarrollo de llanto variado ni gesticulaciones</td></tr>
-            <tr><td class="border px-4 py-2">Social - Cognitivo</td><td class="border px-4 py-2">No sonríe ni fija la mirada</td></tr>
-          </tbody>
-        </table>`
-      }
-    };
+    async function mostrarTabla() {
+      const edad = document.getElementById("edad").value;
+      try {
+        const response = await fetch(`asconi_json_por_rango/edad_${edad}.json`);
+        const data = await response.json();
 
-    function mostrarTabla() {
-      const edad = document.getElementById('edad').value;
-      const datos = tablas[edad];
-
-      if (datos) {
-        document.getElementById('tabla-hitos-contenido').innerHTML = datos.hitos;
-        document.getElementById('tabla-banderas-contenido').innerHTML = datos.banderas;
-        document.getElementById('tabla-hitos').classList.remove('hidden');
-        document.getElementById('tabla-banderas').classList.remove('hidden');
+        document.getElementById("tabla-hitos-contenido").innerHTML = generarTabla(data.hitos, "Hito", "bg-blue-100");
+        document.getElementById("tabla-banderas-contenido").innerHTML = generarTabla(data.banderas, "Alerta", "bg-red-100");
+        document.getElementById("tabla-hitos").classList.remove("hidden");
+        document.getElementById("tabla-banderas").classList.remove("hidden");
+      } catch (err) {
+        console.error("Error cargando datos:", err);
+        document.getElementById("tabla-hitos-contenido").innerHTML = "<p class='text-red-600'>No se pudo cargar la información.</p>";
+        document.getElementById("tabla-banderas-contenido").innerHTML = "";
       }
+    }
+
+    function generarTabla(items, header, color) {
+      let html = `<table class='table-auto w-full border text-sm'><thead class='${color}'>` +
+        `<tr><th class='border px-4 py-2'>Área</th><th class='border px-4 py-2'>${header}</th></tr></thead><tbody>`;
+      for (const item of items) {
+        html += `<tr><td class='border px-4 py-2'>${item.área}</td><td class='border px-4 py-2'>${item.descripcion}</td></tr>`;
+      }
+      html += "</tbody></table>";
+      return html;
     }
   </script>
 </body>

@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Salta en un pie. Corre y se detiene con facilidad."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Copia letras. Dibuja personas con cuerpo."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Independencia total para comer y usar utensilios."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Cuenta historias. Usa tiempos verbales con corrección."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Comprende explicaciones y responde adecuadamente."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Juego cooperativo complejo. Entiende normas sociales."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No salta con un pie. Torpeza al correr o girar."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No dibuja formas o figuras humanas."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "No maneja cubiertos o requiere ayuda constante."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Dificultad para narrar o conversar."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No entiende preguntas ni sigue historias."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No comprende normas ni se integra a grupos."
+    }
+  ]
+}

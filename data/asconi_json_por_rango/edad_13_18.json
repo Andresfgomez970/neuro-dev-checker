@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Camina solo. Sube escaleras gateando."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Hace torres con dos cubos. Garabatea."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Usa cuchara con ayuda. Come con menos derrames."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Usa de 5 a 10 palabras."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Identifica partes del cuerpo. Sigue órdenes simples."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Señala lo que quiere. Juega imitando."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No camina solo. No gatea escaleras."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No apila bloques. No sostiene lápiz o crayón."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "No sostiene utensilios. No lleva alimentos a la boca."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No usa palabras. Solo balbucea."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No sigue instrucciones. No reconoce partes del cuerpo."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No señala ni hace juego simbólico."
+    }
+  ]
+}

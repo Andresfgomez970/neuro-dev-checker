@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Corre con dificultad. Sube y baja escaleras con apoyo."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Hace torre de 4 cubos. Pasa páginas de un libro."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Come solo con cuchara. Bebe en vaso sin ayuda."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Dice frases de 2 palabras. Vocabulario de 20-50 palabras."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Reconoce objetos por nombre. Sigue instrucciones simples."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Imita acciones cotidianas. Juega al lado de otros niños."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No camina de forma estable. No sube escaleras con ayuda."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No construye torre de 2 cubos. No pasa páginas."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "No come solo. Dificultad para usar utensilios."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No combina dos palabras. Vocabulario muy limitado."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No reconoce objetos ni sigue instrucciones."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No muestra juego simbólico. No se interesa por otros niños."
+    }
+  ]
+}

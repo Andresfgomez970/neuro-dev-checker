@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Salta en el lugar. Sube y baja escaleras solo."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Hace torre de 6 cubos. Comienza trazos verticales."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Usa cuchara y vaso sin derrames."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Forma frases de 3 palabras. Usa pronombres."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Sigue instrucciones complejas. Entiende acciones."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Juego simbólico. Nombra objetos en libros."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No sube escaleras solo. No salta."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No apila 3 cubos. No dibuja líneas."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Derrames frecuentes al comer o beber."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No forma frases. Vocabulario muy limitado."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No sigue instrucciones dobles."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No imita tareas del entorno. No nombra objetos conocidos."
+    }
+  ]
+}

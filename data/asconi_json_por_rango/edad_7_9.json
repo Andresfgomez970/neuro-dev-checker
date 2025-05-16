@@ -1,0 +1,54 @@
+{
+  "hitos": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "Sedente sin apoyo. Gateo inicial. Se mantiene de pie con ayuda."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "Pinza lateral con pulgar e índice. Sostiene biberón."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "Come galletas sólidas. Usa manos para llevar comida a la boca."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "Sílabas redobladas como 'mamama' y 'papapa'."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "Responde al nombre. Comprende gestos simples."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "Busca objetos escondidos. Juega a esconderse."
+    }
+  ],
+  "banderas": [
+    {
+      "área": "Motor grueso",
+      "descripcion": "No se sienta sin apoyo. No intenta gatear."
+    },
+    {
+      "área": "Motor fino",
+      "descripcion": "No transfiere objetos entre manos. No hace pinza."
+    },
+    {
+      "área": "Alimentación",
+      "descripcion": "No lleva comida a la boca. Dificultades con alimentos sólidos."
+    },
+    {
+      "área": "Lenguaje expresivo",
+      "descripcion": "No balbucea. No emite sílabas duplicadas."
+    },
+    {
+      "área": "Lenguaje comprensivo",
+      "descripcion": "No responde al nombre. No mira a lo que se señala."
+    },
+    {
+      "área": "Social - Cognitivo",
+      "descripcion": "No muestra interés por juegos sociales."
+    }
+  ]
+}
