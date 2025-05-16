@@ -42,7 +42,7 @@
     async function mostrarTabla() {
       const edad = document.getElementById("edad").value;
       try {
-        const response = await fetch(`asconi_json_por_rango/edad_${edad}.json`);
+        const response = await fetch(`data/asconi_json_por_rango/edad_${edad}.json`);
         const data = await response.json();
 
         document.getElementById("tabla-hitos-contenido").innerHTML = generarTabla(data.hitos, "Hito", "bg-blue-100");
