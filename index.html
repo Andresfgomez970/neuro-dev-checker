@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaluación del Neurodesarrollo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <div class="max-w-3xl mx-auto mt-12 p-6 bg-white rounded-xl shadow-md">
+    <h1 class="text-2xl font-bold mb-4 text-blue-700">Evaluación del Neurodesarrollo (0 a 6 años)</h1>
+    <p class="mb-6 text-gray-600">Ingrese la edad del niño o niña para consultar los hitos esperados según la Cartilla de ASCONI.</p>
+
+    <div class="flex flex-wrap gap-4 items-center mb-6">
+      <div class="flex-1">
+        <label for="edad" class="block text-sm font-medium text-gray-700">Edad</label>
+        <input type="number" id="edad" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Ej. 6" min="0" max="72">
+      </div>
+      <div>
+        <label for="unidad" class="block text-sm font-medium text-gray-700">Unidad</label>
+        <select id="unidad" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500">
+          <option value="meses">Meses</option>
+          <option value="años">Años</option>
+        </select>
+      </div>
+      <div class="self-end">
+        <button onclick="mostrarHitos()" class="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition">Consultar</button>
+      </div>
+    </div>
+
+    <div id="resultados" class="bg-blue-50 p-4 rounded-md shadow-inner hidden">
+      <!-- Resultados se insertan aquí -->
+    </div>
+  </div>
+
+  <script>
+    const hitos = {
+      0: {
+        "Motor grueso": "Gira la cabeza a los lados en prono.",
+        "Lenguaje": "Llanto diferencial. Reacciona a sonidos.",
+        "Social": "Sonríe dormido. Reconoce la voz del cuidador."
+      },
+      3: {
+        "Motor grueso": "Levanta la cabeza en prono 30° por 3-5 segundos.",
+        "Motor fino": "Las manos se van abriendo con más frecuencia.",
+        "Lenguaje": "Sonidos vocálicos. Gesticulaciones a quien le habla."
+      },
+      6: {
+        "Motor grueso": "Se apoya en palmas abiertas en prono.",
+        "Motor fino": "Se pasa un juguete de una mano a otra.",
+        "Lenguaje": "Gagueo, duplicación ocasional de sílabas."
+      },
+      12: {
+        "Motor grueso": "Camina con apoyo, gateo firme.",
+        "Motor fino": "Pinza fina, sostiene biberón.",
+        "Lenguaje": "Dice mamá, papá. Entiende órdenes simples."
+      },
+      24: {
+        "Motor grueso": "Corre torpemente, sube escaleras gateando.",
+        "Lenguaje": "Frases de 2-3 palabras. Usa 20-30 palabras.",
+        "Social": "Juego paralelo, imitación, señala objetos conocidos."
+      }
+    };
+
+    function mostrarHitos() {
+      let edad = parseInt(document.getElementById('edad').value);
+      const unidad = document.getElementById('unidad').value;
+      if (unidad === 'años') edad *= 12;
+
+      const nearest = Object.keys(hitos).reduce((a, b) =>
+        Math.abs(b - edad) < Math.abs(a - edad) ? b : a
+      );
+
+      const info = hitos[nearest];
+      const container = document.getElementById('resultados');
+      let html = `<h2 class="text-xl font-semibold mb-2">Hitos esperados para ${nearest} meses</h2><ul class="list-disc ml-5 space-y-1">`;
+
+      for (const area in info) {
+        html += `<li><span class="font-medium">${area}:</span> ${info[area]}</li>`;
+      }
+      html += "</ul>";
+      container.innerHTML = html;
+      container.classList.remove("hidden");
+    }
+  </script>
+</body>
+</html>
